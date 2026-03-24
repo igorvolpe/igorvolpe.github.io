@@ -8,32 +8,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        body { font-family: 'Inter', sans-serif; background-color: #fdfcf9; color: #1a1a1a; }
+        body { font-family: 'Inter', sans-serif; background-color: #fdfcf9; color: #1a1a1a; scroll-behavior: smooth; }
         .hero-bg {
-            background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('https://images.unsplash.com/photo-1551288049-bbbda536ad89?auto=format&fit=crop&q=80&w=1920');
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1920');
             background-size: cover; background-position: center;
         }
         .progress-bar { height: 8px; background-color: #eee; border-radius: 4px; overflow: hidden; }
-        .progress-fill { height: 100%; background-color: #2563eb; transition: width 1s ease-in-out; }
+        .progress-fill { height: 100%; background-color: #2563eb; transition: width 1.5s ease-in-out; }
     </style>
 </head>
 <body>
 
     <nav class="fixed w-full z-50 bg-black/95 text-white py-4 px-10 flex justify-between items-center border-b border-white/10">
-        <div class="text-xl font-bold uppercase tracking-tighter">Igor Volpe</div>
+        <div class="text-xl font-bold uppercase tracking-tighter">Portfolio</div>
         <div class="hidden md:flex space-x-8 text-xs uppercase tracking-widest font-semibold">
-            <a href="#inicio" class="hover:text-blue-400 transition">Início</a>
-            <a href="#sobre" class="hover:text-blue-400 transition">Sobre Mim</a>
-            <a href="#portfolio" class="hover:text-blue-400 transition">Portfolio</a>
-            <a href="#contato" class="hover:text-blue-400 transition">Contato</a>
+            <a href="#inicio" class="hover:text-blue-400">Início</a>
+            <a href="#sobre" class="hover:text-blue-400">Sobre Mim</a>
+            <a href="#portfolio" class="hover:text-blue-400">Portfolio</a>
+            <a href="#contato" class="hover:text-blue-400">Contato</a>
         </div>
     </nav>
 
     <section id="inicio" class="hero-bg h-screen flex flex-col justify-center items-center text-white text-center px-6">
-        <h1 class="text-6xl md:text-8xl font-bold mb-4">Igor Volpe</h1>
-        <div class="h-1 w-20 bg-blue-600 mb-6"></div>
-        <p class="text-lg md:text-xl font-light tracking-wide max-w-3xl text-gray-300">
-            Analista de Dados | Business Intelligence | SQL Expert (PostgreSQL/MySQL) | Data Insights & Dashboards | ADS
+        <h1 class="text-6xl md:text-8xl font-bold mb-4 tracking-tight">Igor Volpe</h1>
+        <div class="h-1 w-16 bg-blue-600 mb-6"></div>
+        <p class="text-lg md:text-xl font-light tracking-widest max-w-3xl text-gray-300 uppercase">
+            Analista de Dados | Business Intelligence | SQL & Dashboards
         </p>
     </section>
 
@@ -41,72 +41,77 @@
         <div class="md:col-span-2">
             <h2 class="text-3xl font-bold mb-8 uppercase border-b-4 border-blue-600 inline-block">Sobre mim</h2>
             <div class="text-gray-700 leading-relaxed space-y-6 text-lg">
-                <p class="font-semibold text-blue-800">Analista de Dados & Business Intelligence | Especialista em SQL (PostgreSQL/MySQL) & Dashboards Estratégicos</p>
-                <p>Transformo volumes complexos de dados em clareza estratégica para a tomada de decisão. Com sólida experiência na criação de Dashboards dinâmicos e relatórios gerenciais, meu foco é converter dados brutos em insights que geram valor real para o negócio.</p>
-                <p>Sou movido por desafios analíticos, como o meu projeto de Análise de Eficiência Social (SRI), onde desenvolvi scripts complexos utilizando <strong>CTEs e Lógica Condicional</strong> para correlacionar o impacto do PIB no bem-estar social, aplicando técnicas rigorosas de <strong>Data Cleaning</strong> para assegurar a precisão dos KPIs.</p>
-                
-                <div class="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600">
-                    <h4 class="font-bold mb-3 uppercase text-sm text-blue-900">Meu Toolkit Técnico:</h4>
-                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
-                        <li><i class="fas fa-database text-blue-600 mr-2"></i> <strong>Bancos de Dados:</strong> SQL (Postgre, MySQL)</li>
-                        <li><i class="fas fa-chart-pie text-blue-600 mr-2"></i> <strong>Visualização & BI:</strong> Dashboards & Excel</li>
-                        <li><i class="fab fa-python text-blue-600 mr-2"></i> <strong>Linguagens:</strong> Python & Kotlin</li>
-                        <li><i class="fas fa-cogs text-blue-600 mr-2"></i> <strong>Processos:</strong> ETL & Ciência de Dados</li>
-                    </ul>
+                <p>Analista de Dados em formação (ADS), com experiência prática na criação de Dashboards e relatórios gerenciais para suporte à tomada de decisão estratégica.</p>
+                <p>Especialista em SQL para extração, limpeza e manipulação de grandes volumes de dados, com foco em transformar dados brutos em insights de negócio e automação de processos.</p>
+                <p>No meu projeto de destaque, <strong>Análise de Eficiência Social (SRI)</strong>, utilizei scripts SQL avançados com CTEs e Lógica Condicional para correlacionar PIB e bem-estar social, garantindo precisão total através de rigoroso Data Cleaning.</p>
+            </div>
+
+            <div class="mt-12">
+                <h3 class="text-xl font-bold mb-6 uppercase text-blue-800">Trajetória Profissional</h3>
+                <div class="border-l-2 border-blue-200 pl-6 space-y-8">
+                    <div>
+                        <p class="text-sm font-bold text-blue-600">2019 - ATUAL</p>
+                        <h4 class="font-bold text-lg">Sociedade Alphaville Campinas Residencial</h4>
+                        <p class="text-sm italic text-gray-500 mb-2">Analista de Dados & Projetos</p>
+                        <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+                            <li>Desenvolvimento de Dashboards de BI para suporte à gerência.</li>
+                            <li>Otimização de processos e automação de relatórios.</li>
+                            <li>Auditoria estratégica de dados patrimoniais.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
         
-        <div id="contato" class="bg-gray-50 p-8 rounded-2xl h-fit shadow-sm border border-gray-100">
-            <h2 class="text-2xl font-bold mb-6 uppercase border-b-2 border-blue-600 inline-block">Contato</h2>
+        <div id="contato" class="bg-gray-50 p-8 rounded-2xl h-fit border border-gray-100 shadow-sm">
+            <h2 class="text-2xl font-bold mb-6 uppercase border-b-2 border-blue-600 inline-block">Contatos</h2>
             <ul class="space-y-6 text-gray-800">
-                <li><p class="text-xs uppercase text-gray-400 font-bold">Nome</p><p class="font-medium">Igor Volpe</p></li>
-                <li><p class="text-xs uppercase text-gray-400 font-bold">Título</p><p class="font-medium">Analista de Dados & BI</p></li>
+                <li><p class="text-xs uppercase text-gray-400 font-bold">Nome</p><p class="font-medium">Igor Henrique Rocha Volpe</p></li>
                 <li><p class="text-xs uppercase text-gray-400 font-bold">Email</p><p class="font-medium">igorhrv68@gmail.com</p></li>
                 <li><p class="text-xs uppercase text-gray-400 font-bold">Telefone</p><p class="font-medium">(19) 99430-5225</p></li>
+                <li><p class="text-xs uppercase text-gray-400 font-bold">Local</p><p class="font-medium">Campinas/SP</p></li>
                 <li class="pt-4 flex gap-4">
-                    <a href="https://github.com/igorvolpe" class="text-2xl text-gray-400 hover:text-black transition"><i class="fab fa-github"></i></a>
-                    <a href="#" class="text-2xl text-gray-400 hover:text-blue-700 transition"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/igorvolpe" target="_blank" class="text-2xl text-gray-400 hover:text-black"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/igor-volpe-b05165203" target="_blank" class="text-2xl text-gray-400 hover:text-blue-700"><i class="fab fa-linkedin"></i></a>
                 </li>
             </ul>
         </div>
     </section>
 
-    <section class="py-24 bg-gray-900 text-white">
+    <section class="py-24 bg-[#fdfcf9] border-y border-gray-100">
         <div class="max-w-6xl mx-auto px-6">
-            <h2 class="text-3xl font-bold mb-16 text-center uppercase tracking-widest">Habilidades Técnicas</h2>
             <div class="grid md:grid-cols-2 gap-20">
                 <div>
-                    <h3 class="text-sm font-bold mb-8 uppercase text-blue-400">Dados & Backend</h3>
-                    <div class="space-y-8 text-xs font-bold uppercase tracking-wider">
+                    <h3 class="text-xl font-bold mb-10 uppercase tracking-tight">Linguagens de Programação</h3>
+                    <div class="space-y-8 text-[10px] font-bold uppercase tracking-widest text-gray-500">
                         <div>
-                            <div class="flex justify-between mb-2"><span>SQL (CTEs, Joins, Query Optimization)</span><span>95%</span></div>
-                            <div class="progress-bar"><div class="progress-fill" style="width: 95%"></div></div>
+                            <div class="flex justify-between mb-2"><span>Programação SQL (Avançado)</span><span>100%</span></div>
+                            <div class="progress-bar"><div class="progress-fill" style="width: 100%"></div></div>
                         </div>
                         <div>
-                            <div class="flex justify-between mb-2"><span>Python (Pandas, Numpy, Scikit-learn)</span><span>85%</span></div>
-                            <div class="progress-bar"><div class="progress-fill" style="width: 85%"></div></div>
+                            <div class="flex justify-between mb-2"><span>Python (Pandas/NumPy)</span><span>75%</span></div>
+                            <div class="progress-bar"><div class="progress-fill" style="width: 75%"></div></div>
                         </div>
                         <div>
-                            <div class="flex justify-between mb-2"><span>Modelagem de Dados Relacionais</span><span>90%</span></div>
-                            <div class="progress-bar"><div class="progress-fill" style="width: 90%"></div></div>
+                            <div class="flex justify-between mb-2"><span>Kotlin Core</span><span>70%</span></div>
+                            <div class="progress-bar"><div class="progress-fill" style="width: 70%"></div></div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <h3 class="text-sm font-bold mb-8 uppercase text-blue-400">BI & Estratégia</h3>
-                    <div class="space-y-8 text-xs font-bold uppercase tracking-wider">
+                    <h3 class="text-xl font-bold mb-10 uppercase tracking-tight">Ferramentas & BI</h3>
+                    <div class="space-y-8 text-[10px] font-bold uppercase tracking-widest text-gray-500">
                         <div>
-                            <div class="flex justify-between mb-2"><span>Dashboards & Data Visualization</span><span>90%</span></div>
-                            <div class="progress-bar"><div class="progress-fill" style="width: 90%"></div></div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between mb-2"><span>Processos de ETL & Data Cleaning</span><span>85%</span></div>
-                            <div class="progress-bar"><div class="progress-fill" style="width: 85%"></div></div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between mb-2"><span>KPIs & Relatórios Gerenciais</span><span>95%</span></div>
+                            <div class="flex justify-between mb-2"><span>Dashboards Avançados & Power BI</span><span>95%</span></div>
                             <div class="progress-bar"><div class="progress-fill" style="width: 95%"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2"><span>Excel Avançado</span><span>100%</span></div>
+                            <div class="progress-bar"><div class="progress-fill" style="width: 100%"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2"><span>Processos ETL & Modelagem</span><span>90%</span></div>
+                            <div class="progress-bar"><div class="progress-fill" style="width: 90%"></div></div>
                         </div>
                     </div>
                 </div>
@@ -115,50 +120,66 @@
     </section>
 
     <section id="portfolio" class="py-24 max-w-7xl mx-auto px-6 text-center">
-        <h2 class="text-4xl font-bold mb-4">Portfolio de Projetos</h2>
-        <div class="h-1 w-20 bg-blue-600 mx-auto mb-16"></div>
+        <h2 class="text-4xl font-bold mb-4 uppercase">Portfolio de Projetos</h2>
+        <div class="h-1 w-16 bg-blue-600 mx-auto mb-6"></div>
+        <p class="text-gray-500 mb-12">Soluções analíticas aplicadas a desafios reais de negócio</p>
         
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div class="group relative overflow-hidden rounded-xl bg-gray-200 aspect-square shadow-lg">
-                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
-                <div class="absolute inset-0 bg-blue-900/90 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 p-6 text-white">
-                    <h4 class="font-bold text-xl mb-2 italic">Paradoxo da Felicidade</h4>
-                    <p class="text-xs mb-6 uppercase tracking-widest">Data Science & Insights</p>
-                    <a href="https://github.com/igorvolpe/Paradoxo-Felicidade-Dados" target="_blank" class="bg-white text-blue-900 px-6 py-2 rounded-full font-bold text-xs hover:bg-gray-200">VER PROJETO</a>
+            <div class="group relative overflow-hidden rounded-lg shadow-md aspect-square">
+                <img src="https://images.unsplash.com/photo-1551288049-bbbda536ad89?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-white/95 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 p-6">
+                    <h4 class="font-bold text-gray-900 mb-2">Análise SRI</h4>
+                    <p class="text-xs text-gray-500 mb-4 uppercase">SQL Avançado & Data Cleaning</p>
+                    <a href="https://github.com/igorvolpe/Paradoxo-Felicidade-Dados.git" target="_blank" class="text-blue-600 border border-blue-600 px-4 py-2 rounded-full text-xs font-bold hover:bg-blue-600 hover:text-white transition">VER REPOSITÓRIO</a>
                 </div>
             </div>
-
-            <div class="group relative overflow-hidden rounded-xl bg-gray-200 aspect-square shadow-lg">
-                <img src="https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
-                <div class="absolute inset-0 bg-blue-900/90 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 p-6 text-white">
-                    <h4 class="font-bold text-xl mb-2 italic">Sentinel IoT Engine</h4>
-                    <p class="text-xs mb-6 uppercase tracking-widest">Real-Time Analytics</p>
-                    <a href="https://github.com/igorvolpe/Sentinel-IoT---Real-Time-Analytics-Engine" target="_blank" class="bg-white text-blue-900 px-6 py-2 rounded-full font-bold text-xs hover:bg-gray-200">VER PROJETO</a>
+            <div class="group relative overflow-hidden rounded-lg shadow-md aspect-square">
+                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-white/95 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 p-6">
+                    <h4 class="font-bold text-gray-900 mb-2">Sentinel IoT</h4>
+                    <p class="text-xs text-gray-500 mb-4 uppercase">Real-Time Analytics</p>
+                    <a href="https://github.com/igorvolpe/Sentinel-IoT---Real-Time-Analytics-Engine.git" target="_blank" class="text-blue-600 border border-blue-600 px-4 py-2 rounded-full text-xs font-bold hover:bg-blue-600 hover:text-white transition">VER REPOSITÓRIO</a>
                 </div>
             </div>
-
-            <div class="group relative overflow-hidden rounded-xl bg-gray-200 aspect-square shadow-lg">
-                <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
-                <div class="absolute inset-0 bg-blue-900/90 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 p-6 text-white">
-                    <h4 class="font-bold text-xl mb-2 italic">Kriptoflow Core</h4>
-                    <p class="text-xs mb-6 uppercase tracking-widest">Kotlin Engenharia</p>
-                    <a href="https://github.com/igorvolpe/kriptoflow-kotlin-Core" target="_blank" class="bg-white text-blue-900 px-6 py-2 rounded-full font-bold text-xs hover:bg-gray-200">VER PROJETO</a>
+            <div class="group relative overflow-hidden rounded-lg shadow-md aspect-square">
+                <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-white/95 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 p-6">
+                    <h4 class="font-bold text-gray-900 mb-2">Kriptoflow Core</h4>
+                    <p class="text-xs text-gray-500 mb-4 uppercase">Kotlin Engineering</p>
+                    <a href="https://github.com/igorvolpe/kriptoflow-kotlin-Core.git" target="_blank" class="text-blue-600 border border-blue-600 px-4 py-2 rounded-full text-xs font-bold hover:bg-blue-600 hover:text-white transition">VER REPOSITÓRIO</a>
                 </div>
             </div>
-
-            <div class="group relative overflow-hidden rounded-xl bg-gray-200 aspect-square shadow-lg">
-                <img src="https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
-                <div class="absolute inset-0 bg-blue-900/90 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 p-6 text-white">
-                    <h4 class="font-bold text-xl mb-2 italic">Database Architect</h4>
-                    <p class="text-xs mb-6 uppercase tracking-widest">SQL Expert</p>
-                    <a href="https://github.com/igorvolpe/-database" target="_blank" class="bg-white text-blue-900 px-6 py-2 rounded-full font-bold text-xs hover:bg-gray-200">VER PROJETO</a>
+            <div class="group relative overflow-hidden rounded-lg shadow-md aspect-square">
+                <img src="https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-white/95 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 p-6">
+                    <h4 class="font-bold text-gray-900 mb-2">Database Arch</h4>
+                    <p class="text-xs text-gray-500 mb-4 uppercase">SQL & Modeling</p>
+                    <a href="https://github.com/igorvolpe/-database.git" target="_blank" class="text-blue-600 border border-blue-600 px-4 py-2 rounded-full text-xs font-bold hover:bg-blue-600 hover:text-white transition">VER REPOSITÓRIO</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="py-12 text-center border-t border-gray-200 text-gray-400 text-xs uppercase tracking-[0.2em]">
-        &copy; 2024 Igor Volpe | Desenvolvido para Impacto em Dados
+    <section class="py-16 bg-gray-50 text-center">
+        <h3 class="text-xl font-bold mb-8 uppercase">Educação & Certificações</h3>
+        <div class="flex flex-wrap justify-center gap-10 text-sm">
+            <div>
+                <p class="font-bold">ADS (Último Semestre)</p>
+                <p class="text-gray-500 text-xs">Unimetrocamp</p>
+            </div>
+            <div>
+                <p class="font-bold">Ciência de Dados</p>
+                <p class="text-gray-500 text-xs">Certificação FM2S</p>
+            </div>
+            <div>
+                <p class="font-bold">Serviços Administrativos</p>
+                <p class="text-gray-500 text-xs">SENAC</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 text-center text-gray-400 text-[10px] uppercase tracking-widest border-t border-gray-100">
+        © 2024 Igor Volpe | Campinas, SP
     </footer>
 
 </body>
