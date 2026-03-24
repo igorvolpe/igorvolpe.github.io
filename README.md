@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=0254eb&height=200&section=header&text=Igor%20Volpe&fontSize=70&animation=fadeIn&fontAlignY=38" width="100%" />
-</div>
+
 
 ## 🎯 Analista de Dados & Business Intelligence
 **Transformando dados brutos em clareza estratégica para a tomada de decisão.**
