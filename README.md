@@ -1,19 +1,19 @@
-# Olá, eu sou o Igor Volpe! 👋 
-
 <div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=0254eb&height=200&section=header&text=Analista%20de%20Dados%20%26%20BI&fontSize=50&animation=fadeIn&fontAlignY=38" width="100%" />
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=0254eb&height=200&section=header&text=Igor%20Volpe&fontSize=70&animation=fadeIn&fontAlignY=38" width="100%" />
 </div>
 
-### 🎯 Sobre Mim
-Sou um **Analista de Dados & Business Intelligence** apaixonado por transformar grandes volumes de dados brutos em clareza estratégica. Com foco em **SQL Avançado** e **Dashboards de alto impacto**, o meu objetivo é converter informação em decisões inteligentes para o negócio.
+## 🎯 Analista de Dados & Business Intelligence
+**Transformando dados brutos em clareza estratégica para a tomada de decisão.**
+
+Especialista em **SQL (PostgreSQL/MySQL)** e na criação de **Dashboards dinâmicos**, meu foco é converter volumes complexos de informação em insights que geram valor real para o negócio. Tenho sólida experiência em extração, limpeza e modelagem de dados, sempre buscando a máxima precisão nos KPIs.
 
 * 🎓 Finalista em **Análise e Desenvolvimento de Sistemas (ADS)** pela Unimetrocamp.
-* 🏆 Certificado em **Ciência de Dados** pela FM2S.
-* 💼 Atualmente a otimizar processos e auditorias na **Sociedade Alphaville Campinas**.
+* 💼 Atuação estratégica na **Sociedade Alphaville Campinas**, otimizando processos de auditoria e BI.
+* 🚀 Movido por desafios analíticos e automação de processos.
 
 ---
 
-### 🛠️ O Meu Toolkit Técnico
+### 🛠️ Meu Toolkit Técnico
 
 | Categoria | Tecnologias |
 | :--- | :--- |
@@ -24,29 +24,24 @@ Sou um **Analista de Dados & Business Intelligence** apaixonado por transformar 
 
 ---
 
-### 🚀 Projetos em Destaque
+### 🚀 Projetos de Destaque
 
 #### 📊 [Análise de Eficiência Social (SRI)](https://github.com/igorvolpe/Paradoxo-Felicidade-Dados.git)
-Estudo avançado sobre a correlação entre o PIB e o bem-estar social.
-* **Tech:** SQL Avançado, CTEs, CASE WHEN, Data Cleaning.
-* **O que fiz:** Desenvolvi scripts complexos para segmentação de mercado e tratamento de nulos para garantir KPIs precisos.
+Estudo avançado correlacionando o impacto do PIB no bem-estar social.
+* **Foco Técnico:** Scripts SQL complexos, uso de **CTEs**, **Lógica Condicional** e técnicas rigorosas de **Data Cleaning**.
+* **Resultado:** Transformação de dados socioeconômicos dispersos em indicadores claros de performance social.
 
 #### 📡 [Sentinel IoT Engine](https://github.com/igorvolpe/Sentinel-IoT---Real-Time-Analytics-Engine.git)
-Arquitetura para monitorização de dados em tempo real.
-* **Tech:** Real-time Analytics, Data Processing.
+Arquitetura voltada para o processamento e análise de dados em tempo real.
+
+#### 🔗 [Kriptoflow Core](https://github.com/igorvolpe/kriptoflow-kotlin-Core.git)
+Desenvolvimento de lógica de backend e fluxos de dados utilizando Kotlin.
 
 ---
 
-### 📊 Estatísticas do GitHub
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=igorvolpe&show_icons=true&theme=transparent&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=igorvolpe&layout=compact&langs_count=7&theme=transparent" />
-</div>
+### 📫 Vamos nos conectar?
 
----
-
-### 📫 Vamos conversar?
-Se queres discutir sobre dados, BI ou novas tecnologias, entra em contacto:
+Se você busca alguém que une visão técnica de sistemas com foco analítico em resultados, vamos conversar:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/igor-volpe-b05165203)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:igorhrv68@gmail.com)
@@ -54,5 +49,5 @@ Se queres discutir sobre dados, BI ou novas tecnologias, entra em contacto:
 
 ---
 <p align="center">
-  <i>"Sem dados, você é apenas mais uma pessoa com uma opinião." - W. Edwards Deming</i>
+  <i>"Dados sem análise são apenas números. Com a estratégia certa, tornam-se o caminho para o sucesso."</i>
 </p>
