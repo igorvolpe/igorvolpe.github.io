@@ -22,17 +22,17 @@
     <nav class="fixed w-full z-50 bg-black/95 text-white py-4 px-10 flex justify-between items-center border-b border-white/10">
         <div class="text-xl font-bold uppercase tracking-tighter">Portfolio</div>
         <div class="hidden md:flex space-x-8 text-xs uppercase tracking-widest font-semibold">
-            <a href="#inicio" class="hover:text-blue-400">Início</a>
-            <a href="#sobre" class="hover:text-blue-400">Sobre Mim</a>
-            <a href="#portfolio" class="hover:text-blue-400">Portfolio</a>
-            <a href="#contato" class="hover:text-blue-400">Contato</a>
+            <a href="#inicio" class="hover:text-blue-400 transition">Início</a>
+            <a href="#sobre" class="hover:text-blue-400 transition">Sobre Mim</a>
+            <a href="#portfolio" class="hover:text-blue-400 transition">Portfolio</a>
+            <a href="#contato" class="hover:text-blue-400 transition">Contato</a>
         </div>
     </nav>
 
     <section id="inicio" class="hero-bg h-screen flex flex-col justify-center items-center text-white text-center px-6">
         <h1 class="text-6xl md:text-8xl font-bold mb-4 tracking-tight">Igor Volpe</h1>
         <div class="h-1 w-16 bg-blue-600 mb-6"></div>
-        <p class="text-lg md:text-xl font-light tracking-widest max-w-4xl text-gray-300 uppercase hero-headline">
+        <p class="text-lg md:text-xl font-light tracking-widest max-w-4xl text-gray-300 uppercase">
             Analista de Dados | Business Intelligence | SQL Expert (PostgreSQL/MySQL) | Data Insights & Dashboards | ADS
         </p>
     </section>
@@ -71,8 +71,8 @@
                 <li><p class="text-xs uppercase text-gray-400 font-bold">Telefone</p><p class="font-medium">(19) 99430-5225</p></li>
                 <li><p class="text-xs uppercase text-gray-400 font-bold">Local</p><p class="font-medium">Campinas/SP</p></li>
                 <li class="pt-4 flex gap-4">
-                    <a href="https://github.com/igorvolpe" target="_blank" class="text-2xl text-gray-400 hover:text-black"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/igor-volpe-b05165203" target="_blank" class="text-2xl text-gray-400 hover:text-blue-700"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/igorvolpe" target="_blank" class="text-2xl text-gray-400 hover:text-black transition"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/igor-volpe-b05165203" target="_blank" class="text-2xl text-gray-400 hover:text-blue-700 transition"><i class="fab fa-linkedin"></i></a>
                 </li>
             </ul>
         </div>
@@ -121,12 +121,11 @@
 
     <section id="portfolio" class="py-24 max-w-7xl mx-auto px-6 text-center">
         <h2 class="text-4xl font-bold mb-4 uppercase">Portfolio de Projetos</h2>
-        <div class="h-1 w-16 bg-blue-600 mx-auto mb-6"></div>
-        <p class="text-gray-500 mb-12">Soluções analíticas aplicadas a desafios reais de negócio</p>
+        <div class="h-1 w-16 bg-blue-600 mx-auto mb-16"></div>
         
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div class="group relative overflow-hidden rounded-lg shadow-md aspect-square">
-                <img src="sri-dashboard.png" alt="Dashboard Análise SRI" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                <img src="https://images.unsplash.com/photo-1551288049-bbbda536ad89?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover">
                 <div class="absolute inset-0 bg-white/95 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 p-6">
                     <h4 class="font-bold text-gray-900 mb-2">Análise SRI</h4>
                     <p class="text-xs text-gray-500 mb-4 uppercase">SQL Avançado & Data Cleaning</p>
