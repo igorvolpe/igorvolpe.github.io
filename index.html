@@ -1,47 +1,143 @@
-<section id="projetos" class="py-20 px-10 bg-gray-800">
-    <h2 class="text-3xl font-bold text-center mb-12 uppercase tracking-widest">Portfólio de Projetos</h2>
-    
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 max-w-6xl mx-auto">
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igor Volpe | Cientista de Dados</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #fdfcf9; color: #1a1a1a; }
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1920');
+            background-size: cover; background-position: center;
+        }
+        .progress-bar { height: 8px; background-color: #eee; border-radius: 4px; overflow: hidden; }
+        .progress-fill { height: 100%; background-color: #3b82f6; transition: width 1s ease-in-out; }
+    </style>
+</head>
+<body>
+
+    <nav class="fixed w-full z-50 bg-black/90 text-white py-4 px-10 flex justify-between items-center">
+        <div class="text-xl font-bold uppercase tracking-tighter">Portfolio</div>
+        <div class="hidden md:flex space-x-6 text-xs uppercase tracking-widest font-semibold">
+            <a href="#inicio" class="hover:text-blue-400">Início</a>
+            <a href="#sobre" class="hover:text-blue-400">Sobre Mim</a>
+            <a href="#portfolio" class="hover:text-blue-400">Portfolio</a>
+            <a href="#contato" class="hover:text-blue-400">Contato</a>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero-bg h-screen flex flex-col justify-center items-center text-white text-center">
+        <h1 class="text-6xl md:text-8xl font-bold mb-2">Igor Volpe</h1>
+        <div class="h-1 w-12 bg-blue-500 mb-4"></div>
+        <p class="text-2xl font-light tracking-widest">Ciência de Dados | IoT | Engenharia</p>
+    </section>
+
+    <section id="sobre" class="py-20 max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-16">
+        <div class="md:col-span-2">
+            <h2 class="text-3xl font-bold mb-2 uppercase border-b-2 border-blue-500 inline-block">Sobre mim</h2>
+            <div class="mt-8 text-gray-700 leading-relaxed space-y-4">
+                <p>Aqui você vai colocar seu texto. Exemplo: "Como entusiasta de tecnologia e dados, foco em criar soluções que automatizam processos e geram insights valiosos através de Machine Learning e IoT."</p>
+                <p>Tenho grande conforto com diversas linguagens de programação, ferramentas de Big Data e construção de infraestrutura de dados em nuvem.</p>
+            </div>
+        </div>
+        <div id="contato">
+            <h2 class="text-3xl font-bold mb-2 uppercase border-b-2 border-blue-500 inline-block">Contatos</h2>
+            <ul class="mt-8 space-y-4 text-gray-800">
+                <li><strong>Nome:</strong> Igor Volpe</li>
+                <li><strong>Título:</strong> Cientista de Dados</li>
+                <li><strong>Email:</strong> seu-email@exemplo.com</li>
+                <li><strong>Telefone:</strong> (11) 99999-9999</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-16">
+                <div>
+                    <h3 class="text-xl font-bold mb-8 uppercase">Linguagens de Programação</h3>
+                    <div class="space-y-6 text-xs font-bold text-gray-600 uppercase">
+                        <div>
+                            <div class="flex justify-between mb-2"><span>Programação Python</span><span>100%</span></div>
+                            <div class="progress-bar"><div class="progress-fill" style="width: 100%"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2"><span>Programação SQL</span><span>90%</span></div>
+                            <div class="progress-bar"><div class="progress-fill" style="width: 90%"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2"><span>Kotlin / Java</span><span>70%</span></div>
+                            <div class="progress-bar"><div class="progress-fill" style="width: 70%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-8 uppercase">Machine Learning</h3>
+                    <div class="space-y-6 text-xs font-bold text-gray-600 uppercase">
+                        <div>
+                            <div class="flex justify-between mb-2"><span>Algoritmos de Regressão</span><span>100%</span></div>
+                            <div class="progress-bar"><div class="progress-fill" style="width: 100%"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2"><span>Análise de Séries Temporais</span><span>80%</span></div>
+                            <div class="progress-bar"><div class="progress-fill" style="width: 80%"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2"><span>IoT Data Analytics</span><span>85%</span></div>
+                            <div class="progress-bar"><div class="progress-fill" style="width: 85%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-20 max-w-7xl mx-auto px-6 text-center">
+        <h2 class="text-4xl font-bold mb-2">Portfolio de Projetos</h2>
+        <div class="h-1 w-12 bg-blue-500 mx-auto mb-6"></div>
+        <p class="text-gray-500 mb-12">Demonstração de soluções de problemas de negócio com as ferramentas e técnicas que domino</p>
         
-        <div class="bg-gray-900 border border-blue-500/30 p-6 rounded-2xl hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] transition-all">
-            <h3 class="text-2xl font-bold text-blue-400 mb-2">Sentinel IoT Engine</h3>
-            <p class="text-gray-400 mb-4 text-sm">Engine de análise em tempo real para ecossistemas de dispositivos IoT, focada em alta performance e baixa latência.</p>
-            <div class="flex gap-2 mb-6">
-                <span class="text-xs bg-blue-900/50 text-blue-300 px-2 py-1 rounded">IoT</span>
-                <span class="text-xs bg-blue-900/50 text-blue-300 px-2 py-1 rounded">Analytics</span>
-            </div>
-            <a href="https://github.com/igorvolpe/Sentinel-IoT---Real-Time-Analytics-Engine" target="_blank" class="text-white bg-blue-600 px-4 py-2 rounded-lg text-sm font-bold hover:bg-blue-500">Ver Código</a>
+        <div class="flex flex-wrap justify-center gap-6 mb-12 text-xs font-bold uppercase tracking-widest text-gray-400">
+            <button class="text-blue-600 border-b-2 border-blue-600">Todos</button>
+            <button class="hover:text-gray-900 transition">Análise & Visualização</button>
+            <button class="hover:text-gray-900 transition">Automação</button>
+            <button class="hover:text-gray-900 transition">Inteligência Artificial</button>
         </div>
 
-        <div class="bg-gray-900 border border-green-500/30 p-6 rounded-2xl hover:shadow-[0_0_20px_rgba(34,197,94,0.5)] transition-all">
-            <h3 class="text-2xl font-bold text-green-400 mb-2">Paradoxo da Felicidade</h3>
-            <p class="text-gray-400 mb-4 text-sm">Projeto de Ciência de Dados utilizando Python para extrair insights sobre indicadores sociais e bem-estar mundial.</p>
-            <div class="flex gap-2 mb-6">
-                <span class="text-xs bg-green-900/50 text-green-300 px-2 py-1 rounded">Python</span>
-                <span class="text-xs bg-green-900/50 text-green-300 px-2 py-1 rounded">Data Science</span>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="relative group overflow-hidden bg-gray-200 aspect-video">
+                <img src="https://images.unsplash.com/photo-1551288049-bbbda536ad89?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                <div class="absolute inset-0 bg-white/90 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 p-4">
+                    <h4 class="font-bold text-lg mb-2">Paradoxo da Felicidade</h4>
+                    <p class="text-sm text-gray-600 mb-4">Análise exploratória utilizando Python.</p>
+                    <a href="https://github.com/igorvolpe/Paradoxo-Felicidade-Dados" class="text-blue-600 text-xl"><i class="fas fa-link"></i></a>
+                </div>
             </div>
-            <a href="https://github.com/igorvolpe/Paradoxo-Felicidade-Dados" target="_blank" class="text-white bg-green-600 px-4 py-2 rounded-lg text-sm font-bold hover:bg-green-500">Ver Análise</a>
-        </div>
-
-        <div class="bg-gray-900 border border-purple-500/30 p-6 rounded-2xl hover:shadow-[0_0_20px_rgba(168,85,247,0.5)] transition-all">
-            <h3 class="text-2xl font-bold text-purple-400 mb-2">Kriptoflow Core</h3>
-            <p class="text-gray-400 mb-4 text-sm">Desenvolvimento de componentes core em Kotlin para fluxos de processamento seguro e arquitetura escalável.</p>
-            <div class="flex gap-2 mb-6">
-                <span class="text-xs bg-purple-900/50 text-purple-300 px-2 py-1 rounded">Kotlin</span>
-                <span class="text-xs bg-purple-900/50 text-purple-300 px-2 py-1 rounded">Engenharia</span>
+            <div class="relative group overflow-hidden bg-gray-200 aspect-video">
+                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                <div class="absolute inset-0 bg-white/90 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 p-4">
+                    <h4 class="font-bold text-lg mb-2">Sentinel IoT</h4>
+                    <p class="text-sm text-gray-600 mb-4">Monitoramento em tempo real.</p>
+                    <a href="https://github.com/igorvolpe/Sentinel-IoT---Real-Time-Analytics-Engine" class="text-blue-600 text-xl"><i class="fas fa-link"></i></a>
+                </div>
             </div>
-            <a href="https://github.com/igorvolpe/kriptoflow-kotlin-Core" target="_blank" class="text-white bg-purple-600 px-4 py-2 rounded-lg text-sm font-bold hover:bg-purple-500">Ver Repositório</a>
-        </div>
-
-        <div class="bg-gray-900 border border-yellow-500/30 p-6 rounded-2xl hover:shadow-[0_0_20px_rgba(234,179,8,0.5)] transition-all">
-            <h3 class="text-2xl font-bold text-yellow-400 mb-2">Database Systems</h3>
-            <p class="text-gray-400 mb-4 text-sm">Modelagem de dados e implementação de estruturas de banco de dados para aplicações complexas.</p>
-            <div class="flex gap-2 mb-6">
-                <span class="text-xs bg-yellow-900/50 text-yellow-300 px-2 py-1 rounded">SQL</span>
-                <span class="text-xs bg-yellow-900/50 text-yellow-300 px-2 py-1 rounded">Modelagem</span>
+            <div class="relative group overflow-hidden bg-gray-200 aspect-video">
+                <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                <div class="absolute inset-0 bg-white/90 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300 p-4">
+                    <h4 class="font-bold text-lg mb-2">Kriptoflow Kotlin</h4>
+                    <p class="text-sm text-gray-600 mb-4">Engenharia de fluxos de dados.</p>
+                    <a href="https://github.com/igorvolpe/kriptoflow-kotlin-Core" class="text-blue-600 text-xl"><i class="fas fa-link"></i></a>
+                </div>
             </div>
-            <a href="https://github.com/igorvolpe/-database" target="_blank" class="text-white bg-yellow-600 px-4 py-2 rounded-lg text-sm font-bold hover:bg-yellow-500">Ver Estruturas</a>
         </div>
+    </section>
 
-    </div>
-</section>
+    <footer class="py-10 text-center border-t border-gray-200 text-gray-400 text-xs uppercase tracking-widest">
+        &copy; 2024 Igor Volpe. Todos os direitos reservados.
+    </footer>
+
+    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
+</body>
+</html>
