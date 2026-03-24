@@ -39,13 +39,15 @@ Desenvolvimento de lógica de backend e fluxos de dados utilizando Kotlin.
 
 ---
 
-### 📫 Vamos nos conectar?
+### 🌐 Portfólio Completo
 
-Se você busca alguém que une visão técnica de sistemas com foco analítico em resultados, vamos conversar:
+Para uma visualização detalhada da minha trajetória, projetos interativos e currículo completo, acesse meu portfólio oficial:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/igor-volpe-b05165203)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:igorhrv68@gmail.com)
-[![Portfólio](https://img.shields.io/badge/Meu_Portfólio-0254eb?style=for-the-badge&logo=googlechrome&logoColor=white)](https://igorvolpe.github.io)
+<div align="center">
+  <a href="https://igorvolpe.github.io" target="_blank">
+    <img src="https://img.shields.io/badge/ACESSAR_PORTFÓLIO-0254eb?style=for-the-badge&logo=googlechrome&logoColor=white" height="45">
+  </a>
+</div>
 
 ---
 <p align="center">
