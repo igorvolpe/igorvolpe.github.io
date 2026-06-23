@@ -3,7 +3,7 @@
 ## 🎯 Analista de Dados & Business Intelligence
 **Transformando dados brutos em clareza estratégica para a tomada de decisão.**
 
-Especialista em **SQL (PostgreSQL/MySQL)** e na criação de **Dashboards dinâmicos**, meu foco é converter volumes complexos de informação em insights que geram valor real para o negócio. Tenho sólida experiência em extração, limpeza e modelagem de dados, sempre buscando a máxima precisão nos KPIs.
+Profissional em **SQL (PostgreSQL/MySQL)** e na criação de **Dashboards dinâmicos**, meu foco é converter volumes complexos de informação em insights que geram valor real para o negócio. Tenho sólida experiência em extração, limpeza e modelagem de dados, sempre buscando a máxima precisão nos KPIs.
 
 * 🎓 Finalista em **Análise e Desenvolvimento de Sistemas (ADS)** pela Unimetrocamp.
 * 💼 Atuação estratégica na **Sociedade Alphaville Campinas**, otimizando processos de auditoria e BI.
